@@ -1,0 +1,14 @@
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\bin\Debug\net6.0\CodeConvention.exe
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\bin\Debug\net6.0\CodeConvention.deps.json
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\bin\Debug\net6.0\CodeConvention.runtimeconfig.json
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\bin\Debug\net6.0\CodeConvention.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\bin\Debug\net6.0\CodeConvention.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.AssemblyInfoInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.AssemblyInfo.cs
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.csproj.CoreCompileInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\refint\CodeConvention.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\CodeConvention.genruntimeconfig.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\CodeConvention\obj\Debug\net6.0\ref\CodeConvention.dll
