@@ -24,13 +24,35 @@
 
             // TASK 3
             string word = "Hello";
-            Console.WriteLine(ShowThreeFirsrLetters(word));
+            Console.WriteLine(ShowThreeFirstLetters(word));
 
             // TASK 4
             int firstNumber = 4;
             int secondNumber = 5;
 
             Console.WriteLine(CheckingPositiveNumbers(firstNumber, secondNumber));
+
+            // HOMEWORK
+            // 1
+
+            int side = 5;
+
+            Console.WriteLine(ShowAreaAndPerimeterOfSquare(side));
+
+            // 2
+            Console.WriteLine("What is your name?");
+            string name = Console.ReadLine();
+            char[] subsName = name.ToCharArray();
+            subsName[0] = Char.ToUpper(subsName[0]);
+            name = new string(subsName);
+            Console.WriteLine("How old are you, {0}?", name);
+            int age = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("You are {0}. Your age is {1}", name, age);
+
+            // 3
+            double radius = 4.3;
+
+            Console.WriteLine(ShowLengthAreaVolumeOfCircle(radius));
         }
 
         public static int CalculateTwoNumbers(int a, int b, string operation)
@@ -64,7 +86,7 @@
             return result;
         }
 
-        public static string ShowThreeFirsrLetters(string word)
+        public static string ShowThreeFirstLetters(string word)
         {
             char[] subs = word.ToCharArray();
             return $"You enter {subs[0]}, {subs[1]}, {subs[2]}";
@@ -78,6 +100,23 @@
             }
 
             return false;
+        }
+
+        public static string ShowAreaAndPerimeterOfSquare(int side)
+        {
+            int area = side * side;
+            int perimeter = side * 4;
+
+            return $"Area: {area}, Perimeter: {perimeter}";
+        }
+
+        public static string ShowLengthAreaVolumeOfCircle(double radius)
+        {
+            double pi = Math.PI;
+            double length = 2 * pi * radius;
+            double area = pi * radius;
+            double volume = 4 / 3 * pi * radius * radius * radius;
+            return $"Length: {length}, Area: {area}, Volume: {volume}";
         }
     }
 }
