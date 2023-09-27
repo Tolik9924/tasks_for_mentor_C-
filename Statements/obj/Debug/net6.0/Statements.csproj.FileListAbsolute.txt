@@ -1,0 +1,14 @@
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\bin\Debug\net6.0\Statements.exe
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\bin\Debug\net6.0\Statements.deps.json
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\bin\Debug\net6.0\Statements.runtimeconfig.json
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\bin\Debug\net6.0\Statements.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\bin\Debug\net6.0\Statements.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.AssemblyInfoInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.AssemblyInfo.cs
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.csproj.CoreCompileInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\refint\Statements.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\Statements.genruntimeconfig.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\Statements\obj\Debug\net6.0\ref\Statements.dll
