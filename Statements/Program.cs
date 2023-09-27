@@ -247,8 +247,7 @@ namespace Statements
             bool isSum = true;            
             for (int i = 0; i < numStr.Length; i++)
             {
-                number = Convert.ToInt32(numStr[i]);
-                Console.WriteLine("i:" + i);
+                number = Convert.ToInt32(numStr[i]);                
 
                 if (number < 0)
                 {
