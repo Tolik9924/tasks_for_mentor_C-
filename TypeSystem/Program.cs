@@ -16,18 +16,16 @@ namespace TypeSystem
     {
         public byte red;
         public byte green;
-        public byte blue;
-        public byte black;
-        public byte white;
+        public byte blue;        
 
     }
 
     public enum HTTPError
     {
-       HTTP401, 
-       HTTP402, 
-       HTTP403, 
-       HTTP404,
+       HTTP401 = 401, 
+       HTTP402 = 402, 
+       HTTP403 = 403, 
+       HTTP404 = 404,
     }
 
     public struct Dog
@@ -35,7 +33,7 @@ namespace TypeSystem
         public string name;
         public string mark;
         public int age;
-        public string ToString()
+        public override string ToString()
         {
             return $"Name: {name}, Mark: {mark} Age: {age}";
         }
@@ -72,12 +70,17 @@ namespace TypeSystem
             Console.WriteLine("Test Case Status: " + test1Status);
 
             // TASK 5
+            
+            RGB black;
+            RGB white;
 
-            RGB color;
-            color.black = 0000;
-            color.white = 255;
-            byte black = color.black;
-            byte white = color.white;
+            black.red = 0;
+            black.green = 0;
+            black.blue = 0;
+
+            white.red = 255;
+            white.green = 255;
+            white.blue = 255;
 
             // HOMEWORK
 
@@ -109,8 +112,8 @@ namespace TypeSystem
             Console.WriteLine("Maximum number is " + numbers.Max());
 
             // Homework 3
-            HTTPError myError401 = HTTPError.HTTP401;
-            Console.WriteLine(myError401);
+            HTTPError myError = (HTTPError) 401;
+            Console.WriteLine("HTTP: " + myError);
 
             // Homework 4
             Dog myDog = new Dog();
