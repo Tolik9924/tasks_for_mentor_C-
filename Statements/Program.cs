@@ -98,7 +98,10 @@ namespace Statements
 
             for (int i = 0; i < textReplace.Length; i++)
             {
-                Console.WriteLine(textReplace[i]);
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(textReplace[i]);
+                }                
             }
         }
 
