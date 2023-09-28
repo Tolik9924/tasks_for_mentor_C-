@@ -23,7 +23,8 @@ namespace ClassesOOP
 
         public Person()
         {
-            
+            _name = "Default Name";
+            _birthYear = DateTime.Now;
         }
 
         public Person(string name, DateTime birthYear)

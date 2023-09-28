@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,24 +9,25 @@ namespace ClassesOOP
 {
     public class Car
     {
-        private string _color;
+        private Color _color = new Color();
         private double _price;
-        private string _companyName;
+        public const string CompanyName = "BMW";
         private bool _isEnteredData = false;
+        private string _name;
 
         public Car()
         {
             
         }
 
-        public Car(string color, double price, string companyName)
+        public Car(Color color, double price, string name)
         {
             _color = color;
-            _price = price;
-            _companyName = companyName;
+            _price = price;    
+            _name = name;
         }
 
-        public string Color
+        public Color ColorCar
         {
             get => _color; 
             set => _color = value;
@@ -34,11 +36,11 @@ namespace ClassesOOP
         public void Input()
         {
             Console.WriteLine("Input color of car.");
-            _color = Console.ReadLine();
+            _color = Color.FromName(Console.ReadLine());
             Console.WriteLine("Input price of car.");
             _price = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Input company name of car.");
-            _companyName = Console.ReadLine();
+            Console.WriteLine("Input name of car.");
+            _name = Console.ReadLine();
             _isEnteredData = true;
         }
 
@@ -60,19 +62,22 @@ namespace ClassesOOP
 
         public static bool operator == (Car first, Car second)
         {
-            return first._companyName == second._companyName 
+            return first._name == second._name 
                 && first._price == second._price;
         }
 
         public static bool operator !=(Car first, Car second)
         {
-            return first._companyName == second._companyName
+            return first._name == second._name
                 && first._price == second._price;
         }
 
         public override string ToString()
         {
-            return $"Color: {_color} Price: {_price} Company Name: {_companyName}";
-        }
+            return $"Company Name: {CompanyName} " +
+                $"Color: {_color} " +
+                $"Price: {_price} " +
+                $"Company: {_name}";
+        }        
     }
 }
