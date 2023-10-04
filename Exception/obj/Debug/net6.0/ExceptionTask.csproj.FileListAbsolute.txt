@@ -1,0 +1,14 @@
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.AssemblyInfoInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.AssemblyInfo.cs
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.csproj.CoreCompileInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\bin\Debug\net6.0\ExceptionTask.exe
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\bin\Debug\net6.0\ExceptionTask.deps.json
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\bin\Debug\net6.0\ExceptionTask.runtimeconfig.json
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\bin\Debug\net6.0\ExceptionTask.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\bin\Debug\net6.0\ExceptionTask.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\refint\ExceptionTask.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ExceptionTask.genruntimeconfig.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\Exception\obj\Debug\net6.0\ref\ExceptionTask.dll
