@@ -1,0 +1,14 @@
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\bin\Debug\net6.0\AbstractOOP.exe
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\bin\Debug\net6.0\AbstractOOP.deps.json
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\bin\Debug\net6.0\AbstractOOP.runtimeconfig.json
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\bin\Debug\net6.0\AbstractOOP.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\bin\Debug\net6.0\AbstractOOP.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.AssemblyInfoInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.AssemblyInfo.cs
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.csproj.CoreCompileInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\refint\AbstractOOP.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\AbstractOOP.genruntimeconfig.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\AbstractOOP\obj\Debug\net6.0\ref\AbstractOOP.dll
