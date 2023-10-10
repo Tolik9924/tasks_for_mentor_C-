@@ -35,6 +35,45 @@
             {
                 Console.WriteLine(persons[i].Name);
             }
+
+            // HOMEWORK
+            List<Shape> shapes = new List<Shape>();
+            shapes.Add(new Square("square", 4));
+            shapes.Add(new Square("square", 5));
+            shapes.Add(new Square("square", 10));
+            shapes.Add(new Square("square", 8));
+            shapes.Add(new Square("square", 7));
+            shapes.Add(new Circle("circle", 4));
+            shapes.Add(new Circle("circle", 8));
+            shapes.Add(new Circle("circle", 12));
+            shapes.Add(new Circle("circle", 7));
+            shapes.Add(new Circle("circle", 8));
+
+            for (int i = 0; i < shapes.Count; i++) 
+            {
+                Console.WriteLine(
+                    $"Name: {shapes[i].Name} " +
+                    $" Perimeter: {shapes[i].Perimeter()} " +
+                    $" Area: {shapes[i].Area()}"
+                );
+            }
+
+            string maxPerimeterName = "";
+            double max = 0;
+
+            for (int i = 0; i < shapes.Count; i++) 
+            { 
+                if (shapes[i].Perimeter() > max)
+                {
+                    max = shapes[i].Perimeter();
+                    maxPerimeterName = shapes[i].Name;
+                }
+            }
+
+            Console.WriteLine($"Max Perimeter in Shape " +
+                $"Name: {maxPerimeterName} " +
+                $"Perimeter: {max}"
+            );            
         }
     }
 }

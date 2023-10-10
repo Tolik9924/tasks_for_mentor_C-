@@ -19,7 +19,6 @@ namespace AbstractOOP
         virtual public void Print()
         {
             Console.WriteLine("Name: {0}", this.name);
-        }
-
+        }        
     }
 }
