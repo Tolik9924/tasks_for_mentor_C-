@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractOOP
 {
-    public abstract class Shape
+    public abstract class Shape : IComparable<Shape>
     {
         private string name;
 
@@ -25,7 +25,11 @@ namespace AbstractOOP
                 name = value; 
             }
         }
-        
+       
+        public int CompareTo(Shape other)
+        {
+            return this.Area().CompareTo(other.Area());
+        }
         public abstract double Area();
 
         public abstract double Perimeter();

@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace AbstractOOP
 {
-    public class Staff : Person, IComparable
+    public class Staff : Person, IComparable<Staff>
     {
         private int salary;
 
@@ -26,11 +26,9 @@ namespace AbstractOOP
             }
         }
 
-        public int CompareTo(object other)
+        public int CompareTo(Staff other)
         {
-            Staff person = other as Staff;
-                     
-            return String.Compare(Name, person.Name);                        
+            return this.salary.CompareTo(other.salary);
         }
 
         public override void Print()

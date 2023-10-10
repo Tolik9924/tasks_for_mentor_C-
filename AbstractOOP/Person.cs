@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace AbstractOOP
 {
-    public class Person
+    public class Person : IComparable<Person>
     {
         private string name;
 
         public Person(string name)
         {
             this.name = name;
+        }
+
+        public virtual int CompareTo(Person other)
+        {
+            return String.Compare(Name, other.Name);
         }
 
         virtual public string Name { get { return name; } }

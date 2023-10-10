@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace InterfacesOOP
 {
-    public class Builder : IDeveloper, IComparable
+    public class Builder : IDeveloper
     {
         private string _tool;
 
@@ -26,11 +26,9 @@ namespace InterfacesOOP
             }
         }
 
-        public int CompareTo(object other) 
+        public int CompareTo(IDeveloper other) 
         {
-            IDeveloper c = other as IDeveloper;
-            string tool = c.Tool;
-            return String.Compare(this._tool, tool);
+            return this.Tool.CompareTo(other.Tool);
         }
 
         public string Create()

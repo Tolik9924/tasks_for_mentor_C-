@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacesOOP
 {
-    public class Programmer : IDeveloper, IComparable
+    public class Programmer : IDeveloper
     {
         private string _language;
 
@@ -24,11 +24,9 @@ namespace InterfacesOOP
             }
         }
 
-        public int CompareTo(object other)
-        {
-            IDeveloper c = other as IDeveloper;
-            string tool = c.Tool;
-            return String.Compare(this._language, tool);
+        public int CompareTo(IDeveloper other)
+        {            
+            return this.Tool.CompareTo(other.Tool);
         }
 
         public string Create()
