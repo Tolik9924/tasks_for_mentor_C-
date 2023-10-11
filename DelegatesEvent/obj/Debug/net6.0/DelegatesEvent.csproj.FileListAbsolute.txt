@@ -1,0 +1,14 @@
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\bin\Debug\net6.0\DelegatesEvent.exe
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\bin\Debug\net6.0\DelegatesEvent.deps.json
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\bin\Debug\net6.0\DelegatesEvent.runtimeconfig.json
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\bin\Debug\net6.0\DelegatesEvent.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\bin\Debug\net6.0\DelegatesEvent.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.AssemblyInfoInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.AssemblyInfo.cs
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.csproj.CoreCompileInputs.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\refint\DelegatesEvent.dll
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.pdb
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\DelegatesEvent.genruntimeconfig.cache
+C:\work\tasks_for_mentor\tasks_for_mentor\DelegatesEvent\obj\Debug\net6.0\ref\DelegatesEvent.dll
