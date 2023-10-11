@@ -8,14 +8,12 @@ namespace DelegatesEvent
 {
     public class Accountancy
     {
-        Student student = new Student();
-        public void PayingFellowship(int count)
+        
+        public void PayingFellowship(int mark)
         {
-            int access = 5;
-            Console.WriteLine("Count: " + count);
-            int average = student.Marks.Sum() / count;            
+            int access = 5;                                   
 
-            if (average > access)
+            if (mark >= access)
             {
                 Console.WriteLine("Student has scholarship.");
             }
